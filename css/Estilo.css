@@ -1,0 +1,29 @@
+#header{
+   margin:auto;
+   padding:auto;
+   width:700px;
+   font-family:Arial, helvertica, sans-serif;
+  }
+  
+  ul, ol {
+  list-style:none;
+  -webkit-transition:all 1000ms;
+  -o-transition:all 1000ms;
+  transitions:all 1000ms;
+  }
+  
+  .nav li a{
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size:30;
+  color:black;
+  text-decoration:none;
+  padding:10px 10px;
+  display:block;
+  }
+  .nav li a:hover {
+  background-color:#434343;
+  padding: 10px;
+  }
+  .nav > li{
+  float:left;
+  }

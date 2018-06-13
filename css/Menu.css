@@ -1,0 +1,37 @@
+#menu{
+	margin: auto;
+	font-family: Impact;
+	position: relative;
+	width: 800px;
+	display: block;
+}
+
+ul, ol{
+	list-style: none;
+}
+
+.nav li a{
+	background-color: rgba(255, 255, 255, 0.5);
+	color: black;
+	padding:10px 10px;
+	text-decoration:none;
+	display:block;
+	border-radius: 5px;
+}
+
+.nav > li{
+	float:left;
+}
+
+.nav li a:hover{
+	background-color:#434343;
+}
+
+.nav li ul{ 
+	display:none;
+	position:absolute;
+	min-width:90px;}
+
+.nav li:hover> ul{
+	display:block;
+}
